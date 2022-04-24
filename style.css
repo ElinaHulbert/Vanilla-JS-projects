@@ -19,6 +19,8 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 50px;
+  font-family: 'Quando', serif;
+  color: white;
 }
 
 .cards_container {
@@ -31,6 +33,16 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+a {
+  display: block;
+  width: 100%;
+  min-height: 220px;
+  position: relative;
+  z-index: 1;
 }
 
 .l-container {
@@ -45,13 +57,6 @@ h1 {
   width: 100%;
   max-width: 800px;
   padding: 30px;
-}
-
-@media screen and (max-width: 760px) {
-  .l-container {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .b-game-card {

@@ -22,12 +22,24 @@ h1{
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  font-family: 'Quando', serif;
+  color: white;
 }
 
 .cards_container{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+a{
+  display: block;
+  width: 100%;
+  min-height: 220px;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -38,12 +50,17 @@ h1{
   width: 100%;
   max-width: 800px;
   padding: 30px;
-  @media screen and (max-width: 760px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  // @media screen and (max-width: 760px) {
+  //   grid-template-columns: repeat(2, 1fr);
+  // }
   
 }
 
+// .card_container{
+//   position: relative;
+//   display: block;
+//   min-width: 100%;
+// }
 .b-game-card {
   margin-bottom: 25px;
   height: 20px;
